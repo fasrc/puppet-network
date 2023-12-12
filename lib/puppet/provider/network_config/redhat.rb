@@ -39,6 +39,7 @@ Puppet::Type.type(:network_config).provide(:redhat) do
     name: 'DEVICE',
     hotplug: 'HOTPLUG',
     mtu: 'MTU'
+    type: 'TYPE'
   }.freeze
 
   # Map provider instances to files based on their name
